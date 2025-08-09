@@ -18,7 +18,7 @@ A simple cross‑platform command‑line Todo application written in Go. Todos a
 Clone this repository and build the binary:
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/marshallfungai/todo-tracker-app
 cd todoApp
 go build -o todo
 ```
@@ -27,13 +27,6 @@ Run directly with Go (useful during development):
 
 ```bash
 go run . -list
-```
-
-On Windows PowerShell:
-
-```powershell
-go build -o todo.exe
-./todo.exe -list
 ```
 
 ## Usage
